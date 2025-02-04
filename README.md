@@ -29,13 +29,13 @@ O primeiro passo do projeto é a análise exploratória e o tratamento dos dados
 Após a preparação dos dados, passamos para o arquivo **"Importancia_var_hear"**, onde são aplicadas as seguintes técnicas de seleção de variáveis:
 
 ## Técnicas de Seleção de Variáveis
-1. **Seleção K-Best**: Método que seleciona as melhores variáveis com base em testes estatísticos, como qui-quadrado ou ANOVA.
-2. **Regressão Logística**: Algoritmo estatístico que mede a contribuição de cada variável na previsão do resultado.
-3. **Random Forest Feature Importance**: Mede a importância das variáveis com base na redução de impureza nas árvores de decisão dentro de um modelo Random Forest.
-4. **LightGBM**: Algoritmo baseado em gradient boosting que usa histogramas para otimizar a seleção de variáveis importantes.
-5. **XGBoost**: Técnica avançada de gradient boosting que calcula a importância das variáveis através da melhoria do modelo.
-6. **Boruta**: Método baseado em Random Forest que compara a importância das variáveis reais com variáveis artificiais (shadow features) para identificar as mais relevantes.
-7. **Mutual Information**: Avalia a dependência entre as variáveis preditoras e a variável alvo, identificando quais carregam mais informação relevante para a previsão.
+1. **Seleção K-Best**: Seleção K-Best: Método de seleção de variáveis que escolhe as k melhores características com base em testes estatísticos, como qui-quadrado (para variáveis categóricas) ou ANOVA (para variáveis numéricas), medindo a relação entre cada variável independente e a variável alvo..
+2. **Regressão Logística**: Modelo estatístico que estima a probabilidade de um evento ocorrer com base nas variáveis preditoras, atribuindo coeficientes que indicam a influência de cada variável na previsão do resultado.
+3. **Random Forest Feature Importance**: Mede a importância das variáveis em um modelo Random Forest analisando a redução da impureza (exemplo: Gini ou entropia) ao longo das divisões nas árvores de decisão, ou pela diminuição da acurácia ao permutar aleatoriamente os valores das variáveis..
+4. **LightGBM**: Algoritmo baseado em gradient boosting que utiliza histogramas para acelerar a busca por divisões ótimas, atribuindo importância às variáveis com base no ganho de informação que elas proporcionam durante o treinamento do modelo..
+5. **XGBoost**: Método avançado de gradient boosting que calcula a importância das variáveis avaliando o ganho de informação, a cobertura (quantidade de amostras impactadas) e a frequência com que cada variável é usada para dividir os nós das árvores.
+6. **Boruta**: Algoritmo baseado em Random Forest que compara a importância das variáveis reais com a de variáveis sintéticas (shadow features), eliminando aquelas que não demonstram uma contribuição estatisticamente significativa na previsão do modelo.
+7. **Mutual Information**: Técnica que mede a dependência estatística entre variáveis preditoras e a variável alvo, capturando relações lineares e não lineares para determinar quais variáveis carregam mais informação útil para a previsão..
 
 ## Tecnologias Utilizadas
 - Python
