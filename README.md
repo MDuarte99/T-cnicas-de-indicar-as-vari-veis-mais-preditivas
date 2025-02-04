@@ -26,7 +26,7 @@ O primeiro passo do projeto é a análise exploratória e o tratamento dos dados
 2. Dados faltantes são tratados adequadamente.
 3. O conjunto de dados limpo é salvo como **"Tratamento_Dados_heart.csv"**.
 
-Após a preparação dos dados, passamos para o arquivo **"Importancia_var_hear"**, onde são aplicadas as seguintes técnicas de seleção de variáveis:
+Após a preparação dos dados, passamos para o arquivo **"Importancia_var_heart"**, onde são aplicadas as seguintes técnicas de seleção de variáveis:
 
 ## Técnicas de Seleção de Variáveis
 1. **Mutual Information**: Técnica que mede a dependência estatística entre variáveis preditoras e a variável alvo, capturando relações lineares e não lineares para determinar quais variáveis carregam mais informação útil para a previsão.
