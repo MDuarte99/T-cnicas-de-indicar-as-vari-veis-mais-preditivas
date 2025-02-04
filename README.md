@@ -1,4 +1,4 @@
-# Implementação de Técnicas e Algoritmos para Seleção de Variáveis Preditivas
+# Implementação de Técnicas e Algoritmos para Seleção de Variáveis mais preditivas
 
 ## Visão Geral
 Este repositório propõe diversas técnicas de seleção de variáveis preditivas por meio de **Feature Engineering**, permitindo identificar quais variáveis têm maior impacto na previsão de problemas cardíacos. O foco está na análise de dados relacionados a doenças cardíacas, utilizando diferentes abordagens estatísticas e de aprendizado de máquina para melhorar a interpretação e desempenho dos modelos preditivos.
